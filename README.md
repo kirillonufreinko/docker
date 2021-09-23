@@ -123,7 +123,7 @@ open https://hub.docker.com/settings/security # to make Access Token
 docker login -u {{ registry-account }} -p {{ access-token }} # login default hub.docker.com registry
 ```
 
-- Сценарий "Как скачать образ и проверить, сколько он занимает места на диске?"
+- Сценарий "Как скачать образ?"
 ```shell
 docker image pull alpine
 docker system df
